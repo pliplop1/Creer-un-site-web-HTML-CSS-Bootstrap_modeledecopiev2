@@ -1,0 +1,19 @@
+::selection {
+  background: rgb(59, 207, 54); /* WebKit/Blink Browsers */
+  color: #fff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: inherit;
+  color: inherit;
+  font: inherit;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
