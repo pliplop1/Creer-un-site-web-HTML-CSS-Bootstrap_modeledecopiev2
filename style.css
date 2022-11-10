@@ -1,5 +1,5 @@
 ::selection {
-  background: rgb(59, 207, 54); /* WebKit/Blink Browsers */
+  background: #bcf5a9; /* WebKit/Blink Browsers */
   color: #fff;
 }
 * {
@@ -32,7 +32,7 @@ header {
   background: url(./image/main.jpg) no-repeat 50% 50%;
   background-size: cover;
   height: 100vh;
-  border-radius: 0px 0px 5px 5px;
+  border-radius: 0px 0px 20px 20px;
   margin-bottom: 40 px;
 }
 h1 {
