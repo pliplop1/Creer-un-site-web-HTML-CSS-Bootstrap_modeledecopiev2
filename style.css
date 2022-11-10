@@ -17,3 +17,37 @@ ol {
 a {
   text-decoration: none;
 }
+html {
+  scroll-behavior: smooth;
+}
+h2,
+h3,
+h4,
+.nav-item,
+#transition,
+footer {
+  text-align: center;
+}
+header {
+  background: url(./image/main.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  height: 100vh;
+  border-radius: 0px 0px 5px 5px;
+  margin-bottom: 40 px;
+}
+h1 {
+  font-size: 5em;
+  padding: 200 px 0 0 20%;
+  text-shadow: -3 px 3px 2px #bcf5a9;
+  animation: titre ease 3.5s;
+}
+@keyframes titre {
+  0% {
+    opacity: 0;
+    transform: translate(0px, 300px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0px, 0px);
+  }
+}
