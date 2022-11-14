@@ -20,20 +20,23 @@ html {
 h2,
 h3,
 h4,
-.nav-item,
 #transition,
 footer {
   text-align: center;
 }
 /* ************************** HEADER ************************* */
+
 .nav-item img {
   width: 3%;
+  border-radius: 50%;
 }
+
 .nav-item {
   color: darkslategray;
   font-weight: bold;
   padding-right: 45px;
 }
+
 .collapse {
   margin-left: 2%;
 }
@@ -159,7 +162,7 @@ h1 {
   min-width: 250px;
   margin: 0px auto;
   border-radius: 50%;
-  margin-bottom: 0px;
+  margin-bottom: 100px;
 }
 #newsletter h4 {
   margin-top: 15px;
@@ -179,6 +182,7 @@ footer {
   padding: 15px 0 4px 0;
 }
 footer img {
+  border-radius: 50%;
   width: 1%;
 }
 
@@ -196,6 +200,10 @@ footer img {
   }
 }
 @media screen and (max-width: 790px) {
+  .nav-item img {
+    width: 0.8em;
+  }
+
   h1 {
     font-size: 3em;
   }
@@ -218,14 +226,14 @@ footer img {
   }
 }
 @media screen and (max-width: 580px) {
+  .nav-item img {
+    width: 0.8em;
+  }
   .elements {
     padding: 15px 0;
     text-align: center;
   }
   .elements img {
     margin-bottom: 10px;
-  }
-  nav {
-    display: none !important;
   }
 }
